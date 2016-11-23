@@ -23,4 +23,4 @@ This is an example game built with [Corona SDK](http://www.coronalabs.com) to go
 
 * Eric Matyas ([soundimage.org](http://www.soundimage.org)) for the game's music and sound effects. Eric offers numerous audio tracks and sound effects on his website, available on a donation basis.
 
-* ([Kenney](http://kenney.nl/)) for some of the game artwork. Kenney game studio supports other developers by creating free game assets and high quality learning material.
+* Kenney ([kenney.nl](http://kenney.nl/)) for some of the game artwork. Kenney game studio supports other developers by creating free game assets and high quality learning materials.
