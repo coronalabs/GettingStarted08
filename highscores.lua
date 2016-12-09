@@ -17,18 +17,6 @@ local filePath = system.pathForFile( "scores.json", system.DocumentsDirectory )
 
 local musicTrack
 
-local coronaAds = require( "plugin.coronaAds" )
-
-local interstitialPlacement = ""
-
-local function showAd( event )
-
-	-- Show an ad
-	if ( composer.getVariable( "coronaAdsInitialized" ) == true ) then
-		coronaAds.show( interstitialPlacement, true )
-	end
-end
-
 
 local function loadScores()
 
@@ -127,12 +115,10 @@ function scene:show( event )
 
 	if ( phase == "will" ) then
 		-- Code here runs when the scene is still off screen (but is about to come on screen)
-		-- Show an interstitial ad!
-		showAd()
 
 	elseif ( phase == "did" ) then
 		-- Code here runs when the scene is entirely on screen
-		-- Start the music
+		-- Start the music!
 		audio.play( musicTrack, { channel=1, loops=-1 } )
 	end
 end
@@ -149,7 +135,7 @@ function scene:hide( event )
 
 	elseif ( phase == "did" ) then
 		-- Code here runs immediately after the scene goes entirely off screen
-		-- Stop the music
+		-- Stop the music!
 		audio.stop( 1 )
 	end
 end
@@ -160,7 +146,7 @@ function scene:destroy( event )
 
 	local sceneGroup = self.view
 	-- Code here runs prior to the removal of scene's view
-	-- Dispose audio
+	-- Dispose audio!
 	audio.dispose( musicTrack )
 end
 
