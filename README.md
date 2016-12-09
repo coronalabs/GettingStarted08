@@ -1,6 +1,6 @@
 # Star Explorer
 
-This is an example game built with [Corona SDK](http://www.coronalabs.com) to go along with the [Getting Started](https://docs.coronalabs.com/guide/programming/index.html) tutorial. The included source code goes along with the respective chapter.
+This is an example game built with [Corona](http://www.coronalabs.com) to go along with the [Getting Started](https://docs.coronalabs.com/guide/programming/index.html) tutorial. The included source code goes along with the respective chapter.
 
 ## Chapters
 
@@ -12,8 +12,7 @@ This is an example game built with [Corona SDK](http://www.coronalabs.com) to go
 * [Chapter 5 — Converting the Game to Composer](https://docs.coronalabs.com/guide/programming/05/index.html)
 * [Chapter 6 — Implementing High Scores](https://docs.coronalabs.com/guide/programming/06/index.html)
 * [Chapter 7 — Sounds and Music](https://docs.coronalabs.com/guide/programming/07/index.html)
-* [Chapter 8 — In-App Advertising](https://docs.coronalabs.com/guide/programming/08/index.html)
-* [Chapter 9 — Deployment](https://docs.coronalabs.com/guide/programming/09/index.html)
+* [Chapter 8 — Deployment](https://docs.coronalabs.com/guide/programming/08/index.html)
 
 ## Credits
 
@@ -23,4 +22,4 @@ This is an example game built with [Corona SDK](http://www.coronalabs.com) to go
 
 * Eric Matyas ([soundimage.org](http://www.soundimage.org)) for the game's music and sound effects. Eric offers numerous audio tracks and sound effects on his website, available on a donation basis.
 
-* Kenney ([kenney.nl](http://kenney.nl/)) for some of the game artwork. Kenney game studio supports other developers by creating free game assets and high quality learning materials.
+* ([Kenney](http://kenney.nl/)) for some of the game artwork. Kenney game studio supports other developers by creating free game assets and high quality learning material.
