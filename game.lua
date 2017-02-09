@@ -47,7 +47,7 @@ local sheetOptions =
             width = 14,
             height = 40
         },
-    }
+    },
 }
 local objectSheet = graphics.newImageSheet( "gameObjects.png", sheetOptions )
 
@@ -209,7 +209,7 @@ local function onCollision( event )
 		then
 			-- Remove both the laser and asteroid
 			display.remove( obj1 )
-            display.remove( obj2 )
+			display.remove( obj2 )
 
 			-- Play explosion sound!
 			audio.play( explosionSound )
