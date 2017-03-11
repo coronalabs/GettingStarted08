@@ -191,7 +191,6 @@ end
 
 local function endGame()
 	composer.setVariable( "finalScore", score )
-	composer.removeScene( "highscores" )
 	composer.gotoScene( "highscores", { time=800, effect="crossFade" } )
 end
 
@@ -332,6 +331,7 @@ function scene:hide( event )
 		physics.pause()
 		-- Stop the music!
 		audio.stop( 1 )
+		composer.removeScene( "game" )
 	end
 end
 

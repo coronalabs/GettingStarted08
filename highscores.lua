@@ -137,6 +137,7 @@ function scene:hide( event )
 		-- Code here runs immediately after the scene goes entirely off screen
 		-- Stop the music!
 		audio.stop( 1 )
+		composer.removeScene( "highscores" )
 	end
 end
 
